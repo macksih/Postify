@@ -1,0 +1,51 @@
+@font-face{
+  font-family: Quicksand;
+  src: url(./images/fonts/Quicksand.zip);
+  font-weight: 100;
+}
+
+@font-face{
+  font-family: Josefin_Sans;
+  src: url(./images/fonts/Josefin_Sans.zip);
+  font-weight: 300;
+}
+
+@font-face{
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  src: url(./images/fonts/Arabic.zip);
+  font-weight: 500;
+}
+
+@font-face{
+  font-family: gandom;
+  src: url(./images/fonts/gandom-font-v0.5.1.zip);
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  font-family: gandom;
+  font-weight: 700;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container{
+  padding: 0 160px;
+
+}
+
+*{
+  box-sizing: border-box;
+  text-decoration: none ;
+
+}
